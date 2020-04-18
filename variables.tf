@@ -25,13 +25,13 @@ variable ibm_region {
 
 variable public_vlan_ids {
   description = "List of public vlans. The first will be for the master, any additional will be for worker pools"
-  type        = "list"
+  type        = "string"
 
 }
 
 variable private_vlan_ids {
   description = "List of private vlans The first will be for the master, any additional will be for worker pools"
-  type        = "list"
+  type        = "string"
 }
 
 
