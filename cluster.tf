@@ -3,7 +3,7 @@
 # Create Cluster
 ##############################################################################
 
-resource ibm_container_cluster_classic_cluster {
+resource ibm_container_cluster{
 
     name              = "${var.cluster_name}"
     resource_group_id = "5b0134601c214ccd90ab9221227c56e6"
